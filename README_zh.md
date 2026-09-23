@@ -2,8 +2,6 @@
 
 > 采购准入里两个高重复、高摩擦环节的影子模式只读助手：供应商材料包就绪度审查、审批案件管理。只结构化、只标记——绝不撰写合同条款，绝不下准入结论。
 
-[![ClawHub](https://img.shields.io/badge/ClawHub-procurement--admission--copilot--skill-blue)](https://clawhub.ai/haiyangchenbj/procurement-admission-copilot-skill)
-[![GitHub](https://img.shields.io/badge/GitHub-haiyangchenbj-black)](https://github.com/haiyangchenbj/procurement-admission-copilot-skill)
 
 ---
 
