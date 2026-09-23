@@ -2,8 +2,6 @@
 
 > Shadow-mode, review-only copilot for the two repeatable, high-friction parts of B2B supplier / vendor procurement admission: supplier material-package readiness, and approval-case management. It structures and flags — it never drafts contract terms or makes the admission decision.
 
-[![ClawHub](https://img.shields.io/badge/ClawHub-procurement--admission--copilot--skill-blue)](https://clawhub.ai/haiyangchenbj/procurement-admission-copilot-skill)
-[![GitHub](https://img.shields.io/badge/GitHub-haiyangchenbj-black)](https://github.com/haiyangchenbj/procurement-admission-copilot-skill)
 
 ---
 
