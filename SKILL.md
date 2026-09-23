@@ -1,5 +1,8 @@
 ---
 name: procurement-admission-copilot
+slug: procurement-admission-copilot-skill
+displayName: Procurement Admission Copilot
+version: "1.0.5"
 description: Shadow-mode copilot for B2B procurement admission. Given a
   supplier's raw qualification inputs, it checks material-package completeness
   and internal consistency; given a set of approval cases, it tracks status,
@@ -12,7 +15,6 @@ not_for:
   - Making the admission or award decision (results are flags for a human decider)
   - Financial audits or procurement policy design
   - Consumer purchasing decisions
-version: "1.0.3"
 agent_created: true
 ---
 
