@@ -2,7 +2,7 @@
 name: procurement-admission-copilot
 slug: procurement-admission-copilot-skill
 displayName: Procurement Admission Copilot
-version: "1.0.6""
+version: "1.0.7"
 description: Shadow-mode copilot for B2B procurement admission. Given a
   supplier's raw qualification inputs, it checks material-package completeness
   and internal consistency; given a set of approval cases, it tracks status,
@@ -148,8 +148,8 @@ Pause. A human reviewer acts on the flagged cases. This skill never emits the ap
 3. **Identity is anchored to the official registration.** The business license / official registration is authoritative for legal name and USCC; every other document must agree with it.
 4. **P0 blocks readiness / decision-readiness.** A package with a P0 is not admission-ready; a case with a P0 needs human attention before any decision.
 5. **Deadline integrity.** Every readiness flag carries the source document's submission deadline; a case past its deadline is reported as expired, never as pending.
-5. **No fabricated content.** Recommended fixes must reference an existing supplied document.
-6. **Deterministic checks are the baseline.** `scripts/check_material_package.py` owns the numbers; the LLM layer explains and extends, never overrides a deterministic result.
+6. **No fabricated content.** Recommended fixes must reference an existing supplied document.
+7. **Deterministic checks are the baseline.** `scripts/check_material_package.py` owns the numbers; the LLM layer explains and extends, never overrides a deterministic result.
 
 ## Failure Handling
 
