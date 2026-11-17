@@ -2,7 +2,7 @@
 name: procurement-admission-copilot
 slug: procurement-admission-copilot-skill
 displayName: Procurement Admission Copilot
-version: "1.0.7"
+version: "1.0.8"
 description: Shadow-mode copilot for B2B procurement admission. Given a
   supplier's raw qualification inputs, it checks material-package completeness
   and internal consistency; given a set of approval cases, it tracks status,
@@ -76,6 +76,7 @@ For each supplied document, extract:
 - Company legal name **as written in that document** (capture per-doc wording — differences are the signal).
 - Unified Social Credit Code (USCC) if present.
 - Certificate names with issue / expiry dates.
+- The document's submission deadline / validity window (needed to satisfy the deadline-integrity rule in Hard Rule 5).
 - Revenue / scale figures and their stated source.
 - Product / service categories and declared scope.
 - Contact and registration details.
